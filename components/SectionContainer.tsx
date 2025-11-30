@@ -20,13 +20,13 @@ const SectionContainer: React.FC<SectionContainerProps> = ({
   return (
     <section 
       id={id} 
-      className={`scroll-mt-24 py-20 px-4 sm:px-6 lg:px-8 ${dark ? 'bg-slate-900' : 'bg-slate-950'} ${className}`}
+      className={`scroll-mt-24 py-12 px-4 sm:px-6 lg:px-8 ${dark ? 'bg-slate-900' : 'bg-slate-950'} ${className}`}
     >
       <div className="max-w-7xl mx-auto">
         {(title || subtitle) && (
-          <div className="text-center mb-16">
+          <div className="text-center mb-10">
             {title && (
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+              <h2 className="text-3xl md:text-4xl font-bold mb-3 text-white">
                 {title}
               </h2>
             )}

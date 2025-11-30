@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { PERSONAL_INFO } from '../constants';
+import { MapPin, Linkedin, ArrowRight, Briefcase } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-slate-950 overflow-hidden pt-16">
+    <section id="home" className="relative bg-slate-950 overflow-hidden pt-24 lg:pt-32 pb-0">
       {/* Abstract Background Shapes */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-blue-600 opacity-20 blur-3xl"></div>
@@ -56,7 +57,6 @@ const Hero: React.FC = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
