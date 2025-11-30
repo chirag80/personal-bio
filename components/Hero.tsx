@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { PERSONAL_INFO } from '../constants';
-import { MapPin, Linkedin, ArrowRight, Briefcase } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [imageError, setImageError] = useState(false);
