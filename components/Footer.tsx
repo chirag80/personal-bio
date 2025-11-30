@@ -46,10 +46,10 @@ const Footer: React.FC = () => {
           <p className="text-sm">
             &copy; {currentYear} {PERSONAL_INFO.name}. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm">
+          {/* <div className="flex gap-6 text-sm">
             <span className="hover:text-white cursor-pointer transition-colors">Privacy Policy</span>
             <span className="hover:text-white cursor-pointer transition-colors">Terms of Service</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
